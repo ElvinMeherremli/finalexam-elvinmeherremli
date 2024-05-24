@@ -1,0 +1,91 @@
+.Footer-sectopm {
+    border-top: 1px solid rgb(224, 224, 224);
+    padding-top: 40px;
+    p {
+        color: gray;
+        margin-top: 30px;
+    }
+    h2 {
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        li {
+            color: gray;
+            transition: .3s;
+            cursor: pointer;
+            &:hover {
+                margin-left: 5px;
+                color: rgb(0, 89, 255)
+            }
+        }
+    }
+    .unit {
+        p {
+            margin: 0 !important;
+        }
+        svg {
+            transition: .3s;
+            cursor: pointer;
+            &:hover {
+                color: rgb(0, 89, 255); 
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Footer-sectopm {
+        border-top: 1px solid rgb(224, 224, 224);
+        padding-top: 30px;
+        img {
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        p {
+            color: gray;
+            margin-top: 30px;
+            text-align: center;
+            width: 300px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            margin-top: 25px;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            li {
+                color: gray;
+                transition: .3s;
+                margin: 0 auto;
+                cursor: pointer;
+                &:hover {
+                    margin-left: 5px;
+                    color: rgb(0, 89, 255)
+                }
+            }
+        }
+        .unit {
+            p {
+                margin: 0 !important;
+            }
+            svg {
+                transition: .3s;
+                cursor: pointer;
+                &:hover {
+                    color: rgb(0, 89, 255); 
+                }
+            }
+        }
+    }
+}

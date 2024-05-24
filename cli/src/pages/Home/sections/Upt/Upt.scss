@@ -1,0 +1,30 @@
+.Upt-section {
+    svg {
+        font-size: 40px;
+    }
+    h2 {
+        margin-top: 25px;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    p {
+        color: gray;
+        max-width: 265px;
+    }
+}
+
+
+@media screen and (max-width: 1771px) {
+    .Upt-section {
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

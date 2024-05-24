@@ -1,0 +1,57 @@
+.Category-section {
+    h2 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .card1 {
+        background: url(https://preview.colorlib.com/theme/estore/assets/img/categori/cat1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card2 {
+        background: url(https://preview.colorlib.com/theme/estore/assets/img/categori/cat2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card3 {
+        background: url(https://preview.colorlib.com/theme/estore/assets/img/categori/cat3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card {
+        position: relative;
+        padding-top: 150px;
+        padding-left: 200px;
+        width: 520px;
+        height: 343px;
+        h3 {
+            font-size: 40px;
+        }
+        button {
+            background-color: #FFCE25;
+            width: 170px;
+            height: 43px;
+            border-radius: 50px;
+        }
+        p {
+            font-size: 30px;
+            color: blue;
+            font-family: "Yellowtail", cursive;
+        }
+        .new {
+            position: absolute;
+            top: 227px;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 1771px) {
+    .wrapper {
+        flex-direction: column !important;
+        align-items: center;
+    }
+}
